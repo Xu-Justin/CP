@@ -7,6 +7,12 @@ void solve(){
 }
 
 int main(){
-    solve();
+    int T=1;
+    // cin>>T;
+
+    for(int TT=0;TT<T;TT++){
+        solve();
+    }
+
     return 0;
 }
