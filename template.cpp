@@ -25,7 +25,7 @@ int main(){
     // cin>>T;
 
     for(int TT=0;TT<T;TT++){
-		// cout<<"Case "<<TT+1<<":\n";solve();
+        // cout<<"Case "<<TT+1<<":\n";solve();
         solve();
     }
 
