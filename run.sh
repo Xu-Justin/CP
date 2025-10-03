@@ -52,7 +52,7 @@ else
 fi
 
 echo "=================================================="
-g++ -o code.exe $source_code
+g++-15 -o code.exe $source_code
 if [ "$print_to_stdout" = true ]; then
     ./code.exe < "$input_file"
 else
