@@ -21,7 +21,7 @@ done
 
 # Source code
 if [ -z ${1+x} ]; then
-    echo "ℹ️ Using default source code:" $default_source_code
+    # echo "ℹ️ Using default source code:" $default_source_code
     source_code=$default_source_code
 else 
     source_code=$1
@@ -29,7 +29,7 @@ fi
 
 # Input file
 if [ -z ${2+x} ]; then
-    echo "ℹ️ Using default input file:" $default_input_file
+    # echo "ℹ️ Using default input file:" $default_input_file
     input_file=$default_input_file
 else 
     input_file=$2
@@ -37,7 +37,7 @@ fi
 
 # Output file
 if [ -z ${3+x} ]; then
-    echo "ℹ️ Using default output file:" $default_output_file
+    # echo "ℹ️ Using default output file:" $default_output_file
     output_file=$default_output_file
 else 
     output_file=$3
